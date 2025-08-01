@@ -5,12 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MyBiKE</title>
     <link rel="icon" href="./images/favicon.svg">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./styles/style.scss">
-    <script src="scripts/script.js" defer></script>
+    <link rel="preload" href="fonts/Poppins-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous" />
+    <link rel="preload" href="fonts/Poppins-Medium.ttf" as="font" type="font/ttf" crossorigin="anonymous" />
+    <link rel="preload" href="fonts/Poppins-SemiBold.ttf" as="font" type="font/ttf" crossorigin="anonymous" />
+    <link rel="preload" href="fonts/Poppins-Bold.ttf" as="font" type="font/ttf" crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles/aos.css">
+    <link rel="stylesheet" href="styles/index.scss">
+    <script src="scripts/aos.js" defer></script>
+    <script src="scripts/index.js" defer></script>
   </head>
   <body class="page__body">
     <header class="header">
@@ -312,12 +314,5 @@
     </main>
 
     <footer class="footer"></footer>
-
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init({
-        duration: 300
-      });
-    </script>
   </body>
 </html>
