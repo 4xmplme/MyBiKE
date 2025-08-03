@@ -1,7 +1,7 @@
 {
   "name": "mybike",
   "version": "1.0.0",
-  "description": "",
+  "description": "Bicycle Landing Page",
   "scripts": {
     "init": "mate-scripts init",
     "start": "mate-scripts start",
