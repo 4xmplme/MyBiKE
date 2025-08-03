@@ -1,0 +1,1 @@
+{"mappings":"ACAA,aAEA,IAAI,IAAI,CAAC,CACP,SAAU,GACZ","sources":["<anon>","src/scripts/index.js"],"sourcesContent":["'use strict';\nAOS.init({\n    duration: 300\n});\n\n//# sourceMappingURL=MyBiKE.ae9500bd.js.map\n","'use strict';\n\nAOS.init({\n  duration: 300,\n});\n"],"names":["AOS","init","duration"],"version":3,"file":"MyBiKE.ae9500bd.js.map"}
